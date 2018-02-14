@@ -1,0 +1,129 @@
+html,body{
+	margin: 0px;
+	padding: 0px;
+font-family: 'Flamenco', cursive;
+background-image: url(../photo/bg.jpg);
+
+}
+.acc{
+	display: block;
+	margin-bottom: 20px;
+	margin-left: 90px;
+}
+/* ---------------------------- new add -------------------- */
+
+.sel{
+	margin-left: 250px;
+	margin-bottom: 10px;
+	background-color: #707070;
+	border-left: 3px solid #ff9000;
+	border-radius: 2px;
+	padding: 10px;
+	width:45%;
+	transition: .6s;
+    color: #eeeeee;
+    font-size: 20px;
+}
+/* ---------------------------- new add -------------------- */
+#arrow1,#arrow2{
+    transition: 0.4s;
+}
+/* edition here
+up2 and up1 deleted
+added up  
+ */ 
+.up{
+       border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+     padding: 3px;
+     cursor: pointer;
+     transition: 0.4s;
+      float: right;
+      margin-top: 5px;
+}
+.right1{
+	   border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+        transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+     padding: 3px;
+     cursor: pointer;
+    float: right;/* ___________new______________*/
+    margin-top: 5px;
+ } 
+ 
+ .right2{
+	   border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+        transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+     padding: 3px;
+     cursor: pointer;
+      float: right;/* ___________new______________*/
+    margin-top: 5px;
+ }
+
+
+.dropdown{
+	
+	height: 0px;
+	 overflow: hidden;
+	 transition: 0.2s ease-out;
+	 border-bottom: 3px solid #ff9000;
+	border-radius: 2px;
+	width: 255px;
+	margin-left: 250px;
+	margin-bottom: 10px;
+    box-shadow: 1px 1px 5px #ccc;
+}
+/* ___________new______________*/
+.dropdown label{
+    margin: 5px;
+    color: #fdfdfd;
+
+}
+.dropdown input[type=submit]{
+    border:3px solid #707070;
+    width: 100px;
+    height: 40px;
+    color: #707070;
+     background-color:#fdfdfd;
+     transition: .5s;
+     border-radius: 4px;
+
+}
+.dropdown input[type=submit]:hover{
+    background-color: #707070;
+    color: #fdfdfd;
+    box-shadow: 1px 1px 4px #727272;
+}
+.layout{
+    height:200px;
+    width: 900px;
+    margin-left: 250px;
+    background-color: rgba(0,0,0,.8);
+    position: relative;
+ 
+    margin-bottom: 10px;
+}
+.layout img{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 3;
+
+}
+.layout p{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 80px;
+    font-size: 22px;
+    background-color: rgba(255,255,255,.3);
+}

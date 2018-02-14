@@ -1,0 +1,90 @@
+body{
+font-family: 'Flamenco', cursive;
+background-image: url(../photo/bg.jpg);
+}
+.containerf{
+	position: absolute;
+	left: 460px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 10px #505050;
+	padding: 20px;
+}
+.reg{
+	display: block;
+	width: 200px;
+	margin: 10px;
+	padding: 6px;
+	border:2px solid #707070;
+	border-radius: 3px;
+transition: 0.4s;
+
+}
+.reg:focus{
+	border-color: #ff9000;
+	box-shadow: 1px 1px 5px #707070;
+}
+#sub{
+	background-color: #fdfdfd;
+	color:#707070; 
+	cursor: pointer;
+	transition: 0.8s;
+}
+#sub:hover{
+	background-color: #707070;
+	
+	color: #fdfdfd;
+	box-shadow: 1px 1px 5px #707070;
+
+}
+
+.containera {
+  display: inline-block;
+  position: relative;
+ height: 150px;
+	width: 150px;
+  cursor: pointer;
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.containera input {
+  position: absolute;
+  opacity: 0;
+  transition: 0.4s;
+
+}
+.checkmark{
+	position: absolute;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	transition: 0.4s;
+	background-size: 150px 150px;
+}
+.containera:hover input ~ .checkmark {
+
+filter:brightness(50%);
+}
+.containera input:checked ~ .checkmark {
+  border:2px solid #ccc;
+}
+#checkmark1{
+	background-image: url(../photo/avatar/1.gif);
+	
+}
+#checkmark2{
+	background-image: url(../photo/avatar/2.gif);
+	
+}
+#checkmark3{
+	background-image: url(../photo/avatar/3.gif);
+	
+}
+#checkmark4{
+	background-image: url(../photo/avatar/4.gif);
+	
+}

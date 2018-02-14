@@ -1,0 +1,54 @@
+body{
+ margin: 0px;
+  padding: 0px;
+  border:0px;
+  background-color:#dedede;
+  background-image: url(../photo/catagory/savana1.jpg);	
+  background-size: cover;
+  
+}
+h3{
+	margin-top:5px;
+	margin-left:20px;
+	color:#dedede;
+}
+.colline{
+	border:0px solid #2c4f76;
+	float:left;
+	margin:20px 0px 0px 20px ;
+	width:20%;
+	height: auto;
+    border-top-left-radius:8px;
+    border-top-right-radius:8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.title {
+	list-style-type:none;
+    box-sizing: border-box;
+    width: 100%;
+    padding:0px;
+    margin:0px;
+    height: auto;
+}
+.title:hover{
+	transform: translate(10px , -2px);
+	text-decoration: underline white;
+}
+.main_title{
+	font-size: 18px;
+   margin-left:20px;
+   margin-top:5px;
+   margin-bottom: 10px;
+   width:50%;
+}
+.main_title a{
+ text-decoration: none;
+ color:#dedede;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.img_title{
+	width:100%;
+	border-top-left-radius:8px;
+    border-top-right-radius:8px;
+   opacity:.8;
+}

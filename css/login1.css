@@ -1,0 +1,19 @@
+input[type="text"].t,input[type="password"].p{
+	margin: 6px;
+	width: 90%;
+	transition: .8s;
+z-index: 4;
+}
+
+p{
+	width: 100%;
+	margin-left: 6px;
+	text-align: center;
+}
+#btn{
+	display: block;
+	position: absolute;
+	right: 10px;
+
+}
+

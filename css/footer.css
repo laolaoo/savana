@@ -1,0 +1,12 @@
+body{
+	height: 102px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+.footer1{
+	background-image: url(../photo/ps/footer.png);
+
+	width: 100%;
+	height: 102px;
+}

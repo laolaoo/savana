@@ -1,0 +1,16 @@
+.remov{
+	border:0px;
+	background-color: #707070;
+	color:red;
+	font-family: 'Flamenco', cursive;
+	float:right;
+	margin-right: 20px;
+	padding: 5px;
+	width:70px;
+	border-radius: 8px;
+}
+.remov:hover{
+	border:1px solid;
+	border-color: #ff9000;
+	box-shadow: 1px 1px 5px #707070;
+}

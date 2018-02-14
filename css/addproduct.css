@@ -1,0 +1,50 @@
+body{
+font-family: 'Flamenco', cursive;
+background-image: url(../photo/bg.jpg);
+background-size: cover;
+}
+.adder, .adder_s{
+display: block;
+	width: 200px;
+	margin: 10px;
+	padding: 6px;
+	border-radius: 3px;
+    transition: 0.4s;
+}
+.adder,select:focus{
+	border-color: #ff9000;
+	box-shadow: 1px 1px 5px #707070;
+}
+.add_bord{
+	border:1px solid #ff9000;
+	width:20%;
+	height:250px;
+	margin-top: 150px;
+	margin-left:450px;
+	 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.adder{
+	width:50%;
+	border:2px solid #707070;
+	box-sizing: border-box;
+	margin:5px 5px 5px 5px;
+	border-radius: 4px;
+}
+.adder_s{
+
+	margin-top: 15px;
+}
+input[type=file]{
+	width:50%;
+	box-sizing: border-box;
+	margin:5px 5px 5px 5px;
+	border-radius: 4px;
+}
+select{
+	width:50%;
+	border-color:#707070;
+    font-family: 'Flamenco', cursive;
+}
+option{
+	color:#dedede;
+}
